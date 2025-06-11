@@ -7,7 +7,7 @@
         name=name.value.trim();
         if (age.value == "" || name == "") {
     
-            alert("Please enter valid details.");
+            alert("Please enter valid details");
           return;
         }
         let promise = new Promise((resolve, reject) => {
